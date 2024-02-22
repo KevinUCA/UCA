@@ -1,3 +1,3 @@
-document.getElementById('boton 2').addEventListener('click', function(){
+document.getElementById('submit').addEventListener('click', function(){
      alert('Hola mundo');
 })
