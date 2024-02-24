@@ -1,3 +1,5 @@
 document.getElementById('submit').addEventListener('click', function(){
-     alert('Esto es un formulario');
+     alert('El nombre');
+     alert('El correo electrónoco');
+     alert('El mensaje del alumno')
 })
