@@ -1,3 +1,3 @@
 document.getElementById('submit').addEventListener('click', function(){
-     alert('Kevin');
+     alert('Esto es un formulario');
 })
