@@ -1,3 +1,3 @@
 document.getElementById('submit').addEventListener('click', function(){
-     alert(value);
+     alert('nombre del alumno: Kevin');
 })
