@@ -1,6 +1,6 @@
 function cambiarContenido(){
     var div = document.getElementById("miDiv");
-    div.innerHTML ="<h1>Nuevo titulo hecho con innerHTML</h1><p>Contenido nuevo con innerHTML</p>;
+    div.innerHTML ="<h1>Nuevo titulo hecho con innerHTML</h1><p>Contenido nuevo con innerHTML</p>";
 }
 
 function cambiarContenido2(){
