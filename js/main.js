@@ -1,3 +1,5 @@
-document.getElementById('submit').addEventListener('click', function(){
-     alert('nombre del alumno: Kevin');
-})
+function mostrarNombre(){
+     const nombre = document.getElementById("nombre").value;
+     alert("Nombre" +nombre);
+     return false;
+}
