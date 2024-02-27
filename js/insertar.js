@@ -7,8 +7,7 @@ function cambiarContenido2(){
     var div = document.getElementById("miDiv");
 }
 
-var nuevoTexto = document.createTextNode("h1");
-nuevoTexto.textContent = "Titulo nuevo 2 hecho con createTextNode";
+var nuevoTexto = document.createTextNode("Titulo Nuevo 2 hecho con createTextNode");
 
 div.appendChild(nuevoTexto);
 
