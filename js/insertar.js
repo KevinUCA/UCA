@@ -14,7 +14,6 @@ function cambiarContenido(){
     Parrafo.textContent = "Contenido nuevo con createTextNode";
     
     div.appendChild(Parrafo);
-
 }
 
 function pedirGalletas(){
