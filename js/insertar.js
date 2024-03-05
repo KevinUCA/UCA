@@ -21,7 +21,7 @@ function pedirGalletas(){
     const pedido = "Galletas de vainilla";
 
     // creamos la respuesta
-    const respuesta = "Tu pedido de " + pedido + "ha sido enviado;"
+    const respuesta = "Tu pedido de "+ pedido + "ha sido enviado;"
 
     //mostramos la respuesta al cliente
     const elementosRespuesta = document.getElementById("respuesta");
