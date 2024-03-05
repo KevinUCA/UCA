@@ -16,3 +16,16 @@ function cambiarContenido(){
     div.appendChild(Parrafo);
 
 }
+
+function pedirGalletas(){
+    // simulamos una petición al servidor
+    const pedido = "Galletas de vainilla";
+
+    // creamos la respuesta
+    const respuesta = "Tu pedido de " +pedido + "ha sido enviado;"
+
+    //mostramos la respuesta al cliente
+    const elementosRespuesta = document.getElementById("respuesta");
+    elementosRespuesta.textContent = respuesta;
+    elementosRespuesta.style.display="block";
+}

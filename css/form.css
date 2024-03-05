@@ -23,3 +23,10 @@ p {
     border: none;
     cursor: pointer;
 }
+
+#respuesta {
+    display: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-family: 16px;
+}
